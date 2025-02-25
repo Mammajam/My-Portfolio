@@ -11,7 +11,7 @@ const Footer = () => {
             © 2025 Jam Dev. All rights reserved.
           </div>
           <div className="flex justify-center space-x-4">
-            <a href="https://www.instagram.com/company" className="text-blue-500 hover:text-blue-700">
+            <a href="https://www.instagram.com/mammajam_" className="text-blue-500 hover:text-blue-700">
               <FaInstagram size={24} />
             </a>
             <a href="https://wa.me/231881983209" className="text-blue-500 hover:text-blue-700">
