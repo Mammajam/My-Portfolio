@@ -11,13 +11,13 @@ const Footer = () => {
             © 2025 Jam Dev. All rights reserved.
           </div>
           <div className="flex justify-center space-x-4">
-            <a href="https://www.instagram.com/company" className="text-gray-500 hover:text-gray-700">
+            <a href="https://www.instagram.com/company" className="text-blue-500 hover:text-blue-700">
               <FaInstagram size={24} />
             </a>
-            <a href="https://wa.me/231881983209" className="text-gray-500 hover:text-gray-700">
+            <a href="https://wa.me/231881983209" className="text-blue-500 hover:text-blue-700">
               <FaWhatsapp size={24} />
             </a>
-            <a href="mailto:info@company.com" className="text-gray-500 hover:text-gray-700">
+            <a href="mailto:info@company.com" className="text-blue-500 hover:text-blue-700">
               <LuMailPlus size={24} />
             </a>
           </div>
