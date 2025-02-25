@@ -48,7 +48,7 @@ const Home = () => {
         <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
           <div className="rounded-3xl rounded-t-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-tr-none lg:rounded-bl-3xl">
             <h3 id="tier-hobby" className="text-base/7 font-semibold text-blue-500">Design</h3>
-            <p className="mt-6 text-base/7 text-gray-500">The perfect plan if you&#039;re just getting started with our product.</p>
+            <p className="mt-6 text-base/7 text-gray-500">Transform your vision into captivating visuals – let my design skills elevate your brand and message.</p>
             <ul role="list" className="mt-8 space-y-3 text-sm/6 text-gray-500 sm:mt-10">
               <li className="flex gap-x-3">
                 <svg className="h-6 w-5 flex-none text-blue-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
@@ -79,7 +79,7 @@ const Home = () => {
           </div>
           <div className="relative rounded-3xl bg-gray-900 p-8 ring-1 shadow-2xl ring-gray-900/10 sm:p-10">
             <h3 id="tier-enterprise" className="text-base/7 font-semibold text-blue-400">Web Development</h3>
-            <p className="mt-6 text-base/7 text-gray-300">Dedicated support and infrastructure for your company.</p>
+            <p className="mt-6 text-base/7 text-gray-300">Transform your online presence with my expertly crafted websites, designed to elevate your brand and drive business growth.</p>
             <ul role="list" className="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10">
               <li className="flex gap-x-3">
                 <svg className="h-6 w-5 flex-none text-blue-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
