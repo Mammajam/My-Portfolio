@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="https://wa.me/231881983209" className="text-blue-500 hover:text-blue-700">
               <FaWhatsapp size={24} />
             </a>
-            <a href="mailto:info@company.com" className="text-blue-500 hover:text-blue-700">
+            <a href="mailto:jammamadou@gmail.com" className="text-blue-500 hover:text-blue-700">
               <LuMailPlus size={24} />
             </a>
           </div>
