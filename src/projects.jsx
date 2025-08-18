@@ -1,4 +1,5 @@
 import { projects as PROJECTS } from './data/projects'
+import { SiReact, SiNextdotjs } from 'react-icons/si'
 
 const Projects = () => {
   return (
@@ -31,7 +32,11 @@ const Projects = () => {
               <p className='mt-2 text-gray-600 text-sm'>{project.description}</p>
               <div className='mt-3 flex flex-wrap gap-2'>
                 {project.tags.map(tag => (
-                  <span key={tag} className='text-xs px-2 py-1 rounded-full bg-blue-50 text-blue-600 border border-blue-100'>{tag}</span>
+                  <span key={tag} className='inline-flex items-center gap-1 text-xs px-2 py-1 rounded-full bg-blue-50 text-blue-600 border border-blue-100'>
+                    {tag.toLowerCase().includes('react') && <SiReact className='h-3 w-3 text-blue-500' />}
+                    {tag.toLowerCase().includes('next') && <SiNextdotjs className='h-3 w-3 text-gray-800' />}
+                    {tag}
+                  </span>
                 ))}
               </div>
               <div className='mt-4 flex gap-3'>
