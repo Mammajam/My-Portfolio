@@ -3,3 +3,24 @@
 @theme {
   
 }
+
+/* Gradient underline utility */
+.gradient-underline {
+  background-image: linear-gradient(to right, #3b82f6, #6366f1);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  transition: background-size 300ms ease;
+}
+.gradient-underline:hover {
+  background-size: 100% 2px;
+}
+
+/* Soft glow on hover for gradient text */
+.glow-on-hover {
+  text-shadow: 0 0 0 rgba(0,0,0,0);
+  transition: text-shadow 300ms ease;
+}
+.glow-on-hover:hover {
+  text-shadow: 0 0 16px rgba(99,102,241,0.5);
+}
