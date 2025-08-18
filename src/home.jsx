@@ -5,10 +5,10 @@ const Home = () => {
     <section className=''>
       <main className='w-full h-[80vh] text-center flex flex-col gap-12 justify-around items-center mt-32 mb-20 gap-x-32 md:flex-row md:text-left md:px-10'>
         <div className='shrink'>
-          <h1 className='text-3xl text-black font-bold md:text-6xl'>
-            Hello, I&apos;m <span className='text-blue-500'>Jam.</span>
-            <br /> a Full-Stack Developer (React & Next.js)
-            <br /> based in <span className=' text-blue-500'>Monrovia</span>
+          <h1 className='text-balance text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-gray-900'>
+            Hello, I&apos;m <span className='bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent'>Jam.</span>
+            <br /> a Full-Stack Developer (<span className='bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent'>React & Next.js</span>)
+            <br /> based in <span className=' text-blue-600'>Monrovia</span>
           </h1>
           <p className='py-8 px-4 text-lg font-medium text-gray-500 sm:text-xl/8'>
             I build modern web apps with React and Next.js — rapid prototyping with Vite, production-grade performance, SEO, and accessibility.
