@@ -10,7 +10,7 @@ const Home = () => {
             <br /> a Full-Stack Developer (React & Next.js)
             <br /> based in <span className=' text-blue-500'>Monrovia</span>
           </h1>
-          <p className='py-8 px-4 text-xl font-semibold'>
+          <p className='py-8 px-4 text-lg font-medium text-gray-500 sm:text-xl/8'>
             I build modern web apps with React and Next.js — rapid prototyping with Vite, production-grade performance, SEO, and accessibility.
           </p>
           <div className='flex items-center justify-center md:justify-start gap-6 text-gray-600'>
