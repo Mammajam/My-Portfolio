@@ -12,8 +12,10 @@
   background-size: 0% 2px;
   transition: background-size 300ms ease;
 }
-.gradient-underline:hover {
-  background-size: 100% 2px;
+@media (hover: hover) {
+  .gradient-underline:hover {
+    background-size: 100% 2px;
+  }
 }
 
 /* Soft glow on hover for gradient text */
@@ -21,6 +23,8 @@
   text-shadow: 0 0 0 rgba(0,0,0,0);
   transition: text-shadow 300ms ease;
 }
-.glow-on-hover:hover {
-  text-shadow: 0 0 16px rgba(99,102,241,0.5);
+@media (hover: hover) {
+  .glow-on-hover:hover {
+    text-shadow: 0 0 16px rgba(99,102,241,0.5);
+  }
 }

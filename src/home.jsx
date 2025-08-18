@@ -5,7 +5,7 @@ const Home = () => {
     <section className=''>
       <main className='w-full h-[80vh] text-center flex flex-col gap-12 justify-around items-center mt-32 mb-20 gap-x-32 md:flex-row md:text-left md:px-10'>
         <div className='shrink'>
-          <h1 className='text-balance text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-gray-900'>
+          <h1 className='text-balance text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900'>
             <span className='gradient-underline glow-on-hover'>Hello</span>, I&apos;m <span className='bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent glow-on-hover'>Jam.</span>
             <br /> a <span className='gradient-underline glow-on-hover'>Full-Stack Developer</span> (<span className='bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent glow-on-hover'>React & Next.js</span>)
             <br /> based in <span className=' text-blue-600 gradient-underline'>Monrovia</span>
