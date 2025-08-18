@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 
 const Home = () => {
   return (
@@ -6,7 +6,7 @@ const Home = () => {
       <main className='w-full h-[80vh] text-center flex flex-col gap-12 justify-around items-center mt-32 mb-20 gap-x-32 md:flex-row md:text-left md:px-10'>
         <div className='shrink'>
           <h1 className='text-3xl text-black font-bold md:text-6xl'>
-            Hello, I'm <span className='text-blue-500'>Jam.</span>
+            Hello, I&apos;m <span className='text-blue-500'>Jam.</span>
             <br /> A creative freelancer
             <br /> based in <span className=' text-blue-500'>Monrovia</span>
           </h1>
@@ -130,7 +130,7 @@ const Home = () => {
             rel="noopener noreferrer"
             className='inline-block px-6 py-3 border rounded-md text-blue-500 text-lg bg-white hover:bg-blue-500 hover:text-white transition-colors duration-300'
           >
-            Let's Talk
+            Let&apos;s Talk
           </a>
         </div>
       </section>

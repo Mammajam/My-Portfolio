@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { LuMailPlus } from "react-icons/lu"
 

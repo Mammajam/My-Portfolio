@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const About = () => {
   return (
@@ -18,11 +18,11 @@ const About = () => {
 
                 <div className="bg-white rounded-lg shadow-md p-8">
                     <p className="text-gray-700 leading-relaxed mb-6">
-                    My journey as a designer and React developer is a continuous process of learning and growth.  I am constantly exploring new design trends, experimenting with the latest React features, and seeking inspiration from the world around me.  I believe that the digital landscape is constantly evolving, and I am committed to staying at the forefront of this evolution, pushing the boundaries of what's possible and creating innovative solutions that make a difference.  I am driven by a passion to create, to innovate, and to inspire.  I am a designer and a React developer, and I am ready to weave my own thread into the ever-evolving tapestry of the digital world.
+                    My journey as a designer and React developer is a continuous process of learning and growth.  I am constantly exploring new design trends, experimenting with the latest React features, and seeking inspiration from the world around me.  I believe that the digital landscape is constantly evolving, and I am committed to staying at the forefront of this evolution, pushing the boundaries of what&apos;s possible and creating innovative solutions that make a difference.  I am driven by a passion to create, to innovate, and to inspire.  I am a designer and a React developer, and I am ready to weave my own thread into the ever-evolving tapestry of the digital world.
                     </p>
 
                     <div className="mt-8">
-                        <a href='https://wa.me/231881983209' target="_blank" rel="noopener noreferrer" className="inline-block w-32 h-10 text-center border rounded-md text-blue-500 text-lg bg-white align-middle py-2 hover:bg-blue-500 hover:text-white">Let's Talk</a>
+                        <a href='https://wa.me/231881983209' target="_blank" rel="noopener noreferrer" className="inline-block w-32 h-10 text-center border rounded-md text-blue-500 text-lg bg-white align-middle py-2 hover:bg-blue-500 hover:text-white">Let&apos;s Talk</a>
                     </div>
 
                 </div>
