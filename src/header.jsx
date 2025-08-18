@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Header = () => {
@@ -22,9 +22,15 @@ const Header = () => {
 
             {/* Navigation links */}
             <ul id="primary-navigation" className={`md:flex flex-row gap-4 text-gray-500 ${isMobileMenuOpen ? 'flex flex-col absolute top-20 right-0 bg-white w-full py-4 px-10 text-center' : 'hidden'}`}>
-                <li className=''><Link to='/' onClick={() => setIsMobileMenuOpen(false)}>Home</Link></li>
-                <li className=''><Link to='/projects' onClick={() => setIsMobileMenuOpen(false)}>Projects</Link></li>
-                <li className=''><Link to='/about' onClick={() => setIsMobileMenuOpen(false)}>About</Link></li>
+                <li className=''>
+                  <NavLink to='/' onClick={() => setIsMobileMenuOpen(false)} className={({isActive}) => isActive ? 'text-blue-600 font-semibold' : undefined}>Home</NavLink>
+                </li>
+                <li className=''>
+                  <NavLink to='/projects' onClick={() => setIsMobileMenuOpen(false)} className={({isActive}) => isActive ? 'text-blue-600 font-semibold' : undefined}>Projects</NavLink>
+                </li>
+                <li className=''>
+                  <NavLink to='/about' onClick={() => setIsMobileMenuOpen(false)} className={({isActive}) => isActive ? 'text-blue-600 font-semibold' : undefined}>About</NavLink>
+                </li>
             </ul>
         </header>
     );
