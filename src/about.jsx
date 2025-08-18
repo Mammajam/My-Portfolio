@@ -11,14 +11,14 @@ const About = () => {
                         <div className="bg-gray-100 rounded-lg p-4 shadow shadow-md">
                             <img src="https://media.istockphoto.com/id/1407921625/photo/happy-african-american-male-driver-driving-a-car-and-looking-through-the-car-window.jpg?b=1&s=612x612&w=0&k=20&c=PmDnFQzNnTYfeAWtLIMdQSffqwLqO9ItgfHV1x8OVWo=" alt="Team Member 1" className="w-24 h-24 rounded-full mx-auto mb-2" />
                             <h3 className="text-lg font-medium text-gray-800">Mamadou J. Kromah</h3>
-                            <p className="text-gray-600">Freelance Designer & Developer</p>
+                            <p className="text-gray-600">Full-Stack Developer (React & Next.js)</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="bg-white rounded-lg shadow-md p-8">
                     <p className="text-gray-700 leading-relaxed mb-6">
-                    My journey as a designer and React developer is a continuous process of learning and growth.  I am constantly exploring new design trends, experimenting with the latest React features, and seeking inspiration from the world around me.  I believe that the digital landscape is constantly evolving, and I am committed to staying at the forefront of this evolution, pushing the boundaries of what&apos;s possible and creating innovative solutions that make a difference.  I am driven by a passion to create, to innovate, and to inspire.  I am a designer and a React developer, and I am ready to weave my own thread into the ever-evolving tapestry of the digital world.
+                    My journey as a designer and React developer is a continuous process of learning and growth. I am constantly exploring new design trends, experimenting with the latest React features, and leveraging tools like Vite for rapid prototyping and frameworks like Next.js for building robust, full-stack applications. I believe that the digital landscape is constantly evolving, and I am committed to staying at the forefront of this evolution, pushing the boundaries of what&apos;s possible and creating innovative solutions that make a difference. I am driven by a passion to create, to innovate, and to inspire. I am a designer and a React developer, and I am ready to weave my own thread into the ever-evolving tapestry of the digital world.
                     </p>
 
                     <div className="mt-8">
