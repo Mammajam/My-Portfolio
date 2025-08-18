@@ -10,7 +10,7 @@ const About = () => {
                     <div className="w-full md:w-1/2 px-4 mb-6">
                         <div className="rounded-xl overflow-hidden border border-gray-200 bg-white shadow-sm p-4 text-center">
                             <img src="https://media.istockphoto.com/id/1407921625/photo/happy-african-american-male-driver-driving-a-car-and-looking-through-the-car-window.jpg?b=1&s=612x612&w=0&k=20&c=PmDnFQzNnTYfeAWtLIMdQSffqwLqO9ItgfHV1x8OVWo=" alt="Team Member 1" className="w-24 h-24 rounded-full mx-auto mb-2" />
-                            <h3 className="text-lg font-semibold text-gray-900">Mamadou J. Kromah</h3>
+                            <h3 className="text-lg font-semibold text-gray-900">Mamadou Jam</h3>
                             <p className="text-gray-600">Full-Stack Developer (React & Next.js)</p>
                         </div>
                     </div>
