@@ -81,7 +81,7 @@ const Home = () => {
                 Graphic Design
               </li>
             </ul>
-            <a href='https://wa.me/231881983209?text=Hi%20Jam%2C%20I%27m%20interested%20in%20a%20React%2FNext.js%20project.%20Can%20we%20discuss%20requirements%20and%20timeline%3F' target="_blank" rel="noopener noreferrer" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-blue-500 ring-1 ring-blue-200 ring-inset hover:ring-blue-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:mt-10">Book an Appointment</a>
+            <a href='https://wa.me/231881983209?text=Hi%20Jam%2C%20I%27m%20interested%20in%20a%20React%2FNext.js%20project.%20Can%20we%20discuss%20requirements%20and%20timeline%3F' target="_blank" rel="noopener noreferrer" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-blue-500 ring-1 ring-blue-200 ring-inset hover:ring-blue-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:mt-10 gradient-underline">Book an Appointment</a>
           </div>
           <div className="relative rounded-3xl bg-gray-900 p-8 ring-1 shadow-2xl ring-gray-900/10 sm:p-10">
             <h3 id="tier-enterprise" className="text-base/7 font-semibold text-blue-400">React & Next.js Development</h3>
@@ -118,7 +118,7 @@ const Home = () => {
                 React Development
               </li>
             </ul>
-            <a href='https://wa.me/231881983209?text=Hi%20Jam%2C%20I%27d%20like%20to%20build%20a%20Next.js%20app%20with%20React%20UI.%20Let%E2%80%99s%20chat%20about%20scope%2C%20budget%2C%20and%20timeline.' target="_blank" rel="noopener noreferrer" aria-describedby="tier-enterprise" className="mt-8 block rounded-md bg-blue-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-blue-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:mt-10">Book an Appointment</a>
+            <a href='https://wa.me/231881983209?text=Hi%20Jam%2C%20I%27d%20like%20to%20build%20a%20Next.js%20app%20with%20React%20UI.%20Let%E2%80%99s%20chat%20about%20scope%2C%20budget%2C%20and%20timeline.' target="_blank" rel="noopener noreferrer" aria-describedby="tier-enterprise" className="mt-8 block rounded-md bg-blue-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-blue-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:mt-10 glow-on-hover">Book an Appointment</a>
           </div>
         </div>
       </section>
@@ -133,7 +133,7 @@ const Home = () => {
             href='https://wa.me/231881983209?text=Hi%20Jam%2C%20I%27m%20looking%20for%20React%20%2B%20Next.js%20help%20on%20a%20project.'
             target="_blank"
             rel="noopener noreferrer"
-            className='inline-block px-6 py-3 border rounded-md text-blue-500 text-lg bg-white hover:bg-blue-500 hover:text-white transition-colors duration-300'
+            className='inline-block px-6 py-3 border rounded-md text-blue-500 text-lg bg-white hover:bg-blue-500 hover:text-white transition-colors duration-300 gradient-underline'
           >
             Let&apos;s Talk
           </a>
