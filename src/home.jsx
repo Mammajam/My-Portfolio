@@ -7,11 +7,11 @@ const Home = () => {
         <div className='shrink'>
           <h1 className='text-3xl text-black font-bold md:text-6xl'>
             Hello, I&apos;m <span className='text-blue-500'>Jam.</span>
-            <br /> A creative freelancer
+            <br /> Full-Stack Developer (React & Next.js)
             <br /> based in <span className=' text-blue-500'>Monrovia</span>
           </h1>
           <p className='py-8 text-xl font-semibold'>
-            Everything you need to design your products and packages, <br /> develop and host your websites.
+            I build modern web apps with React and Next.js — rapid prototyping with Vite, production-grade performance, SEO, and accessibility.
           </p>
         </div>
         <div>
@@ -28,10 +28,10 @@ const Home = () => {
       <section className="w-full bg-black text-gray-100 py-6">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-center text-xl font-bold">
-            <div className="py-2">Packaging Designer</div>
-            <div className="py-2">Affinity Designer</div>
-            <div className="py-2">Web Development</div>
-            <div className="py-2">React Developer</div>
+            <div className="py-2">React Development</div>
+            <div className="py-2">Next.js Applications</div>
+            <div className="py-2">Performance & SEO</div>
+            <div className="py-2">Tailwind CSS</div>
           </div>
         </div>
       </section>
@@ -79,32 +79,32 @@ const Home = () => {
             <a href='https://wa.me/231881983209' target="_blank" rel="noopener noreferrer" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-blue-500 ring-1 ring-blue-200 ring-inset hover:ring-blue-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:mt-10">Book an Appointment</a>
           </div>
           <div className="relative rounded-3xl bg-gray-900 p-8 ring-1 shadow-2xl ring-gray-900/10 sm:p-10">
-            <h3 id="tier-enterprise" className="text-base/7 font-semibold text-blue-400">Web Development</h3>
-            <p className="mt-6 text-base/7 text-gray-300">Transform your online presence with my expertly crafted websites, designed to elevate your brand and drive business growth.</p>
+            <h3 id="tier-enterprise" className="text-base/7 font-semibold text-blue-400">React & Next.js Development</h3>
+            <p className="mt-6 text-base/7 text-gray-300">High-quality React frontends and full-stack Next.js apps with excellent performance, SEO, and DX.</p>
             <ul role="list" className="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10">
               <li className="flex gap-x-3">
                 <svg className="h-6 w-5 flex-none text-blue-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                   <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
                 </svg>
-                UI Design & Implementation
+                UI Design & Implementation (React)
               </li>
               <li className="flex gap-x-3">
                 <svg className="h-6 w-5 flex-none text-blue-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                   <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
                 </svg>
-                Web Design
+                Next.js App Routing & Data Fetching
               </li>
               <li className="flex gap-x-3">
                 <svg className="h-6 w-5 flex-none text-blue-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                   <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
                 </svg>
-                Frontend Development
+                Frontend Development (React + Tailwind)
               </li>
               <li className="flex gap-x-3">
                 <svg className="h-6 w-5 flex-none text-blue-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                   <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
                 </svg>
-                Backend Development
+                API Routes & Integrations (Next.js)
               </li>
               <li className="flex gap-x-3">
                 <svg className="h-6 w-5 flex-none text-blue-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
