@@ -9,7 +9,7 @@ const Projects = () => {
     const tokenSet = new Set()
     for (const project of PROJECTS) {
       for (const rawTag of project.tags) {
-        const parts = String(rawTag).split(/\+|\&|\//).map(p => p.trim()).filter(Boolean)
+        const parts = String(rawTag).split(/[+&/]/).map(p => p.trim()).filter(Boolean)
         for (const part of (parts.length ? parts : [rawTag])) {
           const label = String(part).replace(/\s+/g, ' ').trim()
           if (label) tokenSet.add(label)
