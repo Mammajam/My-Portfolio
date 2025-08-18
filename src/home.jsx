@@ -1,4 +1,4 @@
- 
+import { SiReact, SiNextdotjs, SiTailwindcss } from 'react-icons/si'
 
 const Home = () => {
   return (
@@ -13,6 +13,11 @@ const Home = () => {
           <p className='py-8 text-xl font-semibold'>
             I build modern web apps with React and Next.js — rapid prototyping with Vite, production-grade performance, SEO, and accessibility.
           </p>
+          <div className='flex items-center gap-6 text-gray-600'>
+            <span className='inline-flex items-center gap-2'><SiReact className='text-blue-500' /> React</span>
+            <span className='inline-flex items-center gap-2'><SiNextdotjs className='text-gray-800' /> Next.js</span>
+            <span className='inline-flex items-center gap-2'><SiTailwindcss className='text-cyan-500' /> Tailwind CSS</span>
+          </div>
         </div>
         <div>
           <img
@@ -28,10 +33,10 @@ const Home = () => {
       <section className="w-full bg-black text-gray-100 py-6">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-center text-xl font-bold">
-            <div className="py-2">React Development</div>
-            <div className="py-2">Next.js Applications</div>
-            <div className="py-2">Performance & SEO</div>
-            <div className="py-2">Tailwind CSS</div>
+            <div className="py-2 inline-flex items-center justify-center gap-2"><SiReact className='text-blue-400' /> React Development</div>
+            <div className="py-2 inline-flex items-center justify-center gap-2"><SiNextdotjs className='text-white' /> Next.js Applications</div>
+            <div className="py-2 inline-flex items-center justify-center gap-2">⚡ Performance & SEO</div>
+            <div className="py-2 inline-flex items-center justify-center gap-2"><SiTailwindcss className='text-cyan-400' /> Tailwind CSS</div>
           </div>
         </div>
       </section>
@@ -76,7 +81,7 @@ const Home = () => {
                 Graphic Design
               </li>
             </ul>
-            <a href='https://wa.me/231881983209' target="_blank" rel="noopener noreferrer" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-blue-500 ring-1 ring-blue-200 ring-inset hover:ring-blue-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:mt-10">Book an Appointment</a>
+            <a href='https://wa.me/231881983209?text=Hi%20Jam%2C%20I%27m%20interested%20in%20a%20React%2FNext.js%20project.%20Can%20we%20discuss%20requirements%20and%20timeline%3F' target="_blank" rel="noopener noreferrer" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-blue-500 ring-1 ring-blue-200 ring-inset hover:ring-blue-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:mt-10">Book an Appointment</a>
           </div>
           <div className="relative rounded-3xl bg-gray-900 p-8 ring-1 shadow-2xl ring-gray-900/10 sm:p-10">
             <h3 id="tier-enterprise" className="text-base/7 font-semibold text-blue-400">React & Next.js Development</h3>
@@ -113,7 +118,7 @@ const Home = () => {
                 React Development
               </li>
             </ul>
-            <a href='https://wa.me/231881983209' target="_blank" rel="noopener noreferrer" aria-describedby="tier-enterprise" className="mt-8 block rounded-md bg-blue-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-blue-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:mt-10">Book an Appointment</a>
+            <a href='https://wa.me/231881983209?text=Hi%20Jam%2C%20I%27d%20like%20to%20build%20a%20Next.js%20app%20with%20React%20UI.%20Let%E2%80%99s%20chat%20about%20scope%2C%20budget%2C%20and%20timeline.' target="_blank" rel="noopener noreferrer" aria-describedby="tier-enterprise" className="mt-8 block rounded-md bg-blue-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-blue-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:mt-10">Book an Appointment</a>
           </div>
         </div>
       </section>
@@ -125,7 +130,7 @@ const Home = () => {
         </div>
         <div>
           <a
-            href='https://wa.me/231881983209'
+            href='https://wa.me/231881983209?text=Hi%20Jam%2C%20I%27m%20looking%20for%20React%20%2B%20Next.js%20help%20on%20a%20project.'
             target="_blank"
             rel="noopener noreferrer"
             className='inline-block px-6 py-3 border rounded-md text-blue-500 text-lg bg-white hover:bg-blue-500 hover:text-white transition-colors duration-300'
