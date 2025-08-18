@@ -5,6 +5,7 @@ import Header from './header'
 import Footer from './footer'
 import Home from './home'
 import About from './about'
+import Projects from './projects'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/projects' element={<Projects />} />
       </Routes>
       <Footer />
     </Router>

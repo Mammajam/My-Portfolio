@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -23,7 +22,7 @@ const About = () => {
                     </p>
 
                     <div className="mt-8">
-                        <Link to='https://wa.me/231881983209' className="inline-block w-32 h-10 text-center border rounded-md text-blue-500 text-2 bg-white align-middle py-2 hover:bg-blue-500 hover:text-white">Let's Talk</ Link>
+                        <a href='https://wa.me/231881983209' target="_blank" rel="noopener noreferrer" className="inline-block w-32 h-10 text-center border rounded-md text-blue-500 text-lg bg-white align-middle py-2 hover:bg-blue-500 hover:text-white">Let's Talk</a>
                     </div>
 
                 </div>
