@@ -6,6 +6,7 @@ import Footer from './footer'
 import Home from './home'
 const About = lazy(() => import('./about'))
 const Projects = lazy(() => import('./projects'))
+const NotFound = lazy(() => import('./notfound'))
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </Suspense>
       <Footer />
