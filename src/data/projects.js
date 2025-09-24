@@ -1,5 +1,23 @@
 export const projects = [
   {
+    id: 'o3-the-brand',
+    title: 'O3 The Brand',
+    description: 'E-commerce website for a premium t-shirt brand focused on quality fabrics and unique designs.',
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop',
+    tags: ['React', 'E-commerce', 'UI/UX', 'Vite'],
+    liveUrl: 'https://o3thebrand-app.vercel.app/',
+    repoUrl: '',
+  },
+  {
+    id: 'abu-merch',
+    title: 'ABU Merch',
+    description: 'E-commerce platform for merchandise and branded products with modern design and user experience.',
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1200&auto=format&fit=crop',
+    tags: ['React', 'E-commerce', 'Merchandise', 'Netlify'],
+    liveUrl: 'https://abumerch.netlify.app/',
+    repoUrl: '',
+  },
+  {
     id: 'eventfflow',
     title: 'eventfflow',
     description: 'Event landing and flows built with a modern toolchain.',
