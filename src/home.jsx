@@ -1,4 +1,5 @@
 import { SiReact, SiNextdotjs, SiTailwindcss } from 'react-icons/si'
+import Estimator from './estimator'
 
 const Home = () => {
   return (
@@ -122,6 +123,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <Estimator />
 
       <section className='flex flex-row justify-around items-center bg-blue-500 text-white w-full h-auto py-8 max-md:flex-col text-center text-sm gap-4'>
         <div className='px-4'>
